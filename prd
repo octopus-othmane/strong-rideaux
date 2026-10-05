@@ -1,0 +1,1725 @@
+# STRONG RIDEAUX — PREMIUM WEBSITE
+
+## Product Requirements Document
+
+**Project:** Complete website redesign and development
+**Brand:** STRONG RIDEAUX
+**Industry:** Roller shutters, aluminum systems, automation, gates & sectional doors
+**Market:** Morocco
+**Primary language:** French
+**Secondary language:** Arabic / English — architecture should support future multilingual expansion
+**Website type:** Premium corporate / industrial / architectural website
+**Primary objective:** Transform STRONG RIDEAUX from a conventional product website into a premium, technically credible, architectural brand experience.
+
+---
+
+# 01. PROJECT VISION
+
+The new STRONG RIDEAUX website must NOT feel like a standard Moroccan industrial company website.
+
+It should feel like the digital presence of a company operating at the intersection of:
+
+**ARCHITECTURE × ENGINEERING × SECURITY × AUTOMATION × DESIGN**
+
+The website should communicate:
+
+* technical expertise
+* manufacturing quality
+* precision
+* durability
+* innovation
+* security
+* architectural sophistication
+* customization
+* professionalism
+* trust
+
+The visitor should immediately feel:
+
+> **"These people understand serious projects."**
+
+The website should position STRONG RIDEAUX as a **technical solutions company for modern buildings**, rather than simply a company selling roller shutters.
+
+---
+
+# 02. CURRENT WEBSITE CONTENT TO RETAIN
+
+The existing STRONG RIDEAUX website presents the company around custom roller shutters and related systems.
+
+Current product/service ecosystem includes:
+
+* Volets roulants
+* Volets roulants extrudés
+* Lame 55 bombée Alumousse
+* Lame 45 plat Alumousse
+* Porte sectionnelle
+* Portail automatique
+* Profilés aluminium modulaires
+* Motorisation
+
+The website also currently communicates:
+
+* quality
+* advanced technology
+* customization
+* protection
+* comfort
+* security
+* professional installation
+* custom solutions
+
+The current site also contains a catalogue, blog, company information and contact/devis functionality.
+
+**IMPORTANT:**
+
+Do not simply copy the existing website.
+
+The information should be retained where accurate, but the content architecture, storytelling, visual hierarchy and presentation must be completely redesigned.
+
+---
+
+# 03. CORE POSITIONING
+
+## Primary positioning
+
+### STRONG RIDEAUX
+
+**Solutions de fermeture et de protection pour l’architecture moderne.**
+
+Alternative positioning:
+
+**L’ingénierie de la fermeture.**
+
+Alternative:
+
+**Protection. Précision. Performance.**
+
+Alternative:
+
+**Des systèmes conçus pour durer.**
+
+The final tagline can be selected during branding.
+
+---
+
+# 04. TARGET AUDIENCE
+
+The website must serve several audiences.
+
+## A. Residential customers
+
+People looking for:
+
+* roller shutters
+* motorization
+* security
+* thermal comfort
+* privacy
+* modern aesthetics
+* automatic gates
+
+They need a simple explanation and strong visual reassurance.
+
+---
+
+## B. Architects
+
+Architects need:
+
+* technical information
+* dimensions
+* materials
+* finishes
+* integration possibilities
+* catalogues
+* technical documentation
+* project references
+
+The website should make STRONG RIDEAUX look like a serious technical partner.
+
+---
+
+## C. Developers / Promoters
+
+Needs:
+
+* reliability
+* scalability
+* technical support
+* project coordination
+* volume capacity
+* professional installation
+* product consistency
+
+---
+
+## D. Contractors / Professionals
+
+Needs:
+
+* product specifications
+* technical documentation
+* catalogue
+* motorization information
+* profiles
+* installation information
+* contact with technical team
+
+---
+
+## E. Commercial / Industrial clients
+
+Needs:
+
+* security
+* access control
+* sectional doors
+* automation
+* durability
+* reliability
+* customized solutions
+
+---
+
+# 05. BRAND EXPERIENCE
+
+The website should feel:
+
+### Architectural
+
+Large spaces, strong compositions, elegant imagery.
+
+### Technical
+
+Precise specifications and structured information.
+
+### Premium
+
+High-quality typography, photography and interactions.
+
+### Industrial
+
+Materials such as aluminum, steel, glass and concrete should influence the visual language.
+
+### Minimal
+
+Do not overload the interface.
+
+### Confident
+
+Avoid excessive marketing language.
+
+STRONG RIDEAUX should speak with authority.
+
+Instead of:
+
+> "Découvrez nos produits exceptionnels."
+
+Prefer:
+
+> **ENGINEERED FOR REAL CONDITIONS.**
+
+or:
+
+> **Pensé sur mesure. Conçu pour durer.**
+
+---
+
+# 06. VISUAL DIRECTION
+
+## Overall aesthetic
+
+Premium architectural-industrial.
+
+Reference feeling:
+
+* high-end architecture studio
+* premium automotive website
+* industrial design company
+* engineering firm
+* luxury construction company
+
+NOT:
+
+* generic WordPress website
+* traditional construction company website
+* generic SaaS website
+* overly colorful corporate website
+
+---
+
+# 07. COLOR SYSTEM
+
+Recommended base palette:
+
+### Primary
+
+Deep charcoal / near black
+
+`#111111`
+
+### Secondary
+
+Warm architectural white
+
+`#F3F1EC`
+
+### Material gray
+
+`#A7A7A3`
+
+### Aluminum
+
+`#D0D0CC`
+
+### Accent
+
+Use ONE restrained brand accent.
+
+Possible:
+
+* dark burgundy
+* deep orange
+* architectural bronze
+
+The accent should never dominate the website.
+
+---
+
+# 08. TYPOGRAPHY
+
+Use a premium modern sans-serif.
+
+Recommended:
+
+* Manrope
+* General Sans
+* Satoshi
+* Neue Montreal
+* Inter Tight
+
+Typography hierarchy should be dramatic.
+
+Example:
+
+**VOLETS
+CONÇUS
+POUR DURER.**
+
+Large typography should become a visual element.
+
+Technical data can use a monospace font.
+
+Example:
+
+`ALUMINIUM / 55 MM / MOTORISÉ`
+
+---
+
+# 09. PHOTOGRAPHY
+
+Photography is extremely important.
+
+Avoid generic stock photos.
+
+Preferred imagery:
+
+* modern villas
+* contemporary architecture
+* aluminum shutters
+* close-ups of mechanisms
+* roller shutter blades
+* motorization
+* industrial buildings
+* garage doors
+* gates
+* architectural façades
+* installation details
+* hands / craftsmanship
+* material textures
+
+Photography should feel:
+
+**cinematic + architectural + precise.**
+
+Use large images with generous negative space.
+
+---
+
+# 10. WEBSITE INFORMATION ARCHITECTURE
+
+## Main navigation
+
+### STRONG RIDEAUX
+
+### SOLUTIONS
+
+Dropdown:
+
+* Volets roulants
+* Motorisation
+* Portails automatiques
+* Portes sectionnelles
+* Profilés aluminium
+
+### PROJETS
+
+### EXPERTISE
+
+### RESSOURCES
+
+Dropdown:
+
+* Catalogue
+* Documentation technique
+* Blog
+
+### À PROPOS
+
+### CONTACT
+
+Primary CTA:
+
+**DEMANDER UN DEVIS**
+
+---
+
+# 11. HOMEPAGE
+
+The homepage should function as an immersive introduction to the company.
+
+---
+
+## SECTION 01 — HERO
+
+Full-screen hero.
+
+Use architectural video or high-quality image.
+
+Visual:
+
+A modern building with an aluminum roller shutter partially closing.
+
+Very subtle motion.
+
+Text:
+
+### VOLETS ROULANTS
+
+### CONÇUS POUR DURER.
+
+Small text:
+
+**Protection · Performance · Architecture**
+
+CTA 01:
+
+**Explorer nos solutions**
+
+CTA 02:
+
+**Parler de votre projet**
+
+Bottom technical line:
+
+`SUR MESURE / MOTORISATION / INSTALLATION / MAROC`
+
+The hero should immediately communicate premium positioning.
+
+---
+
+# 12. SECTION 02 — BRAND STATEMENT
+
+Large editorial section.
+
+Headline:
+
+### PLUS QU’UN VOLET.
+
+### UNE SOLUTION D’ARCHITECTURE.
+
+Supporting copy:
+
+STRONG RIDEAUX conçoit et installe des solutions de fermeture, de protection et d’automatisation pensées pour répondre aux exigences des espaces contemporains.
+
+Short supporting elements:
+
+**PROTECTION**
+
+Sécuriser les espaces sans compromettre leur esthétique.
+
+**PERFORMANCE**
+
+Des systèmes conçus pour fonctionner durablement.
+
+**PRÉCISION**
+
+Chaque projet est adapté à son environnement et à ses contraintes.
+
+---
+
+# 13. SECTION 03 — SOLUTIONS
+
+Headline:
+
+### NOS SOLUTIONS
+
+Subheadline:
+
+Des systèmes conçus autour d'un même objectif : protéger, automatiser et valoriser les espaces.
+
+Display products as large editorial cards.
+
+---
+
+### 01
+
+## VOLETS ROULANTS
+
+Image.
+
+Description:
+
+Solutions sur mesure pour l'habitat, les commerces et les bâtiments professionnels.
+
+CTA:
+
+**Découvrir**
+
+---
+
+### 02
+
+## MOTORISATION
+
+Image.
+
+Description:
+
+Automatisez vos systèmes pour plus de confort, de contrôle et de sécurité.
+
+CTA:
+
+**Découvrir**
+
+---
+
+### 03
+
+## PORTAILS AUTOMATIQUES
+
+Image.
+
+Description:
+
+Contrôlez les accès avec des systèmes fiables et parfaitement intégrés.
+
+CTA:
+
+**Découvrir**
+
+---
+
+### 04
+
+## PORTES SECTIONNELLES
+
+Image.
+
+Description:
+
+Solutions adaptées aux environnements résidentiels, commerciaux et industriels.
+
+CTA:
+
+**Découvrir**
+
+---
+
+### 05
+
+## PROFILÉS ALUMINIUM
+
+Image.
+
+Description:
+
+Des composants conçus pour répondre aux exigences de fabrication et d'installation.
+
+CTA:
+
+**Découvrir**
+
+---
+
+# 14. SECTION 04 — FEATURED PRODUCT
+
+Create an immersive product presentation.
+
+Example:
+
+## EXTRUDÉ 55
+
+Large product photography.
+
+On the side:
+
+**EXTRUDÉ 55**
+
+`01 / 05`
+
+Technical information:
+
+* Aluminium extrudé
+* Haute résistance
+* Sécurité renforcée
+* Compatible motorisation
+* Fabrication sur mesure
+
+CTA:
+
+**Voir les caractéristiques**
+
+Animation:
+
+As user scrolls, product image moves slowly while specifications appear progressively.
+
+---
+
+# 15. PRODUCT DETAIL PAGES
+
+Each major product must have its own page.
+
+Example URL architecture:
+
+`/solutions/volets-roulants`
+
+`/solutions/motorisation`
+
+`/solutions/portails-automatiques`
+
+`/solutions/portes-sectionnelles`
+
+`/solutions/profiles-aluminium`
+
+---
+
+## Product page structure
+
+### HERO
+
+Large product visual.
+
+Title:
+
+**VOLETS ROULANTS**
+
+Subtitle:
+
+**Protection, confort et architecture sur mesure.**
+
+---
+
+### INTRODUCTION
+
+Explain:
+
+* what the solution is
+* where it is used
+* why it matters
+* who it is designed for
+
+---
+
+### PRODUCT RANGE
+
+For roller shutters:
+
+* Lame 45 plat Alumousse
+* Lame 55 bombée Alumousse
+* Extrudée 55
+* Extrudée 100
+
+Each product gets a visual card.
+
+---
+
+### TECHNICAL SPECIFICATIONS
+
+Display information as a clean technical interface.
+
+Example:
+
+`MATÉRIAU`
+Aluminium
+
+`APPLICATION`
+Résidentiel / Commercial
+
+`TYPE`
+Manuel / Motorisé
+
+`FINITION`
+Sur mesure
+
+`SÉCURITÉ`
+Selon configuration
+
+---
+
+### BENEFITS
+
+Use large statements:
+
+**ISOLER**
+
+**PROTÉGER**
+
+**AUTOMATISER**
+
+**VALORISER**
+
+---
+
+### APPLICATIONS
+
+Residential
+
+Commercial
+
+Industrial
+
+Architectural
+
+---
+
+### CTA
+
+## UN PROJET EN TÊTE ?
+
+**Parlons-en.**
+
+Button:
+
+**Demander un devis**
+
+---
+
+# 16. SECTION — WHY STRONG RIDEAUX
+
+Headline:
+
+### BUILT AROUND PRECISION.
+
+Four principles:
+
+### SUR MESURE
+
+Chaque projet possède ses propres contraintes.
+
+### PERFORMANCE
+
+Des systèmes sélectionnés pour leur fiabilité.
+
+### TECHNOLOGIE
+
+Motorisation et automatisation adaptées aux usages modernes.
+
+### ACCOMPAGNEMENT
+
+De l'étude à l'installation.
+
+---
+
+# 17. SECTION — PROJECTS
+
+This section is essential for premium positioning.
+
+Instead of simply showing products, show them **inside real environments.**
+
+Headline:
+
+### DES SOLUTIONS
+
+### EN CONDITIONS RÉELLES.
+
+Projects displayed as editorial case studies.
+
+Categories:
+
+* Résidentiel
+* Commercial
+* Industriel
+* Architecture
+
+Each project card:
+
+Image
+
+Project name
+
+Location
+
+Type
+
+Solution
+
+Example:
+
+**Villa Casablanca**
+
+`RÉSIDENTIEL`
+
+`VOLETS EXTRUDÉS + MOTORISATION`
+
+CTA:
+
+**Voir le projet**
+
+---
+
+# 18. PROJECT DETAIL PAGE
+
+Each project should have a cinematic case-study page.
+
+Structure:
+
+Hero image
+
+Project title
+
+Location
+
+Year
+
+Type
+
+---
+
+## LE PROJET
+
+Short narrative.
+
+---
+
+## LA SOLUTION
+
+What STRONG RIDEAUX installed.
+
+---
+
+## TECHNICAL APPROACH
+
+Technical specifications.
+
+---
+
+## VISUAL GALLERY
+
+Large images.
+
+---
+
+## NEXT PROJECT
+
+Navigation to another case study.
+
+---
+
+# 19. PROFESSIONALS SECTION
+
+Create a dedicated section for:
+
+* Architectes
+* Promoteurs
+* Entreprises
+* Menuisiers aluminium
+* Installateurs
+
+Headline:
+
+### VOUS CONCEVEZ.
+
+### NOUS DONNONS FORME À LA SOLUTION.
+
+Offer:
+
+* Catalogue
+* Fiches techniques
+* Documentation
+* Assistance
+* Devis
+* Accompagnement projet
+
+CTA:
+
+**Espace professionnel**
+
+This section should dramatically increase B2B credibility.
+
+---
+
+# 20. TECHNICAL LIBRARY
+
+Instead of a boring PDF page, create an actual technical library.
+
+Categories:
+
+### CATALOGUES
+
+### FICHES PRODUITS
+
+### MOTORISATION
+
+### PROFILÉS
+
+### PORTES
+
+### GUIDES
+
+Each resource:
+
+Title
+
+Category
+
+Date
+
+File format
+
+Download button
+
+Example:
+
+**Catalogue STRONG RIDEAUX 2026**
+
+`PDF · 8.4 MB`
+
+**Télécharger**
+
+---
+
+# 21. ABOUT PAGE
+
+The About page should not simply say:
+
+"STRONG RIDEAUX is a company specializing in..."
+
+Instead tell the story through:
+
+### OUR MISSION
+
+### OUR EXPERTISE
+
+### OUR APPROACH
+
+### OUR VALUES
+
+### OUR TECHNOLOGY
+
+### OUR COMMITMENT
+
+Large typography and imagery.
+
+Possible opening:
+
+> **Nous croyons qu'un système de fermeture ne devrait jamais être une simple contrainte technique.**
+
+Then explain how STRONG RIDEAUX combines:
+
+architecture
+
+engineering
+
+security
+
+automation
+
+craftsmanship
+
+---
+
+# 22. NUMBERS / CREDIBILITY
+
+If verified, present company statistics.
+
+Possible structure:
+
+`100+`
+
+Clients
+
+`300+`
+
+Entreprises
+
+`XX`
+
+Projects
+
+`XX`
+
+Years of expertise
+
+Do NOT use questionable statistics merely to make the website look impressive.
+
+Every number must be verified before publication.
+
+The existing website currently displays figures such as 100 clients and 300 companies, but these should be validated with the client before being reused.
+
+---
+
+# 23. BLOG / INSIGHTS
+
+Rename the blog experience:
+
+## STRONG RIDEAUX INSIGHTS
+
+Categories:
+
+* Architecture
+* Technologie
+* Motorisation
+* Sécurité
+* Guides
+* Produits
+* Conseils
+
+Instead of generic blog cards, use an editorial magazine layout.
+
+Example:
+
+### COMMENT CHOISIR SON VOLET ROULANT ?
+
+Large image.
+
+Category:
+
+`GUIDE`
+
+Reading time:
+
+`5 MIN`
+
+CTA:
+
+**Lire l'article**
+
+---
+
+# 24. QUOTE EXPERIENCE
+
+The main conversion mechanism should be more sophisticated than:
+
+"Name / phone / message."
+
+Create a project request flow.
+
+### STEP 01
+
+**Quel type de solution recherchez-vous ?**
+
+* Volet roulant
+* Motorisation
+* Portail
+* Porte sectionnelle
+* Profilé aluminium
+* Autre
+
+### STEP 02
+
+**Quel est votre projet ?**
+
+* Résidentiel
+* Commercial
+* Industriel
+* Autre
+
+### STEP 03
+
+**Où se situe le projet ?**
+
+City.
+
+### STEP 04
+
+**Parlez-nous du projet.**
+
+Optional dimensions / quantity / requirements.
+
+### STEP 05
+
+Contact:
+
+Name
+
+Phone
+
+Email
+
+Company
+
+---
+
+Final screen:
+
+### VOTRE PROJET EST ENTRE DE BONNES MAINS.
+
+**Notre équipe reviendra vers vous rapidement.**
+
+---
+
+# 25. CONTACT PAGE
+
+The Contact page should feel premium and extremely simple.
+
+Headline:
+
+### PARLONS DE
+
+### VOTRE PROJET.
+
+Display:
+
+Phone
+
+Email
+
+Address
+
+Opening hours
+
+Google Maps
+
+Contact form
+
+WhatsApp CTA
+
+---
+
+# 26. FOOTER
+
+Minimal.
+
+Logo.
+
+Short positioning:
+
+**Solutions de fermeture et d'automatisation pour l'architecture moderne.**
+
+Navigation.
+
+Solutions.
+
+Resources.
+
+Contact.
+
+Social links.
+
+Legal.
+
+Bottom:
+
+`© 2026 STRONG RIDEAUX`
+
+---
+
+# 27. INTERACTION DESIGN
+
+The website should have subtle premium interactions.
+
+Do NOT use animations everywhere.
+
+Use:
+
+### Page transitions
+
+Smooth fade / slide.
+
+### Image reveal
+
+Images reveal progressively as they enter viewport.
+
+### Typography reveal
+
+Headlines animate line-by-line.
+
+### Product hover
+
+Product images slightly zoom.
+
+### Cursor interaction
+
+Optional custom cursor on desktop.
+
+### Horizontal scrolling
+
+Can be used selectively for product collections.
+
+### Parallax
+
+Very subtle.
+
+### Technical data
+
+Numbers and specifications can animate into view.
+
+---
+
+# 28. SCROLL EXPERIENCE
+
+Scrolling should feel like moving through an architectural presentation.
+
+Sequence:
+
+**INTRODUCE**
+
+↓
+
+**ESTABLISH AUTHORITY**
+
+↓
+
+**SHOW SOLUTIONS**
+
+↓
+
+**SHOW PRODUCT DETAIL**
+
+↓
+
+**SHOW REAL PROJECTS**
+
+↓
+
+**PROVE EXPERTISE**
+
+↓
+
+**CONVERT**
+
+The user should never feel like they are scrolling through a template.
+
+---
+
+# 29. RESPONSIVE DESIGN
+
+The website must be designed mobile-first but preserve the premium desktop experience.
+
+## Mobile
+
+Prioritize:
+
+* typography
+* photography
+* product discovery
+* CTA
+* contact
+* WhatsApp
+
+Navigation:
+
+Hamburger menu.
+
+Sticky bottom CTA:
+
+**Demander un devis**
+
+---
+
+# 30. TECHNICAL REQUIREMENTS
+
+Recommended stack:
+
+### Frontend
+
+Next.js
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+GSAP / Framer Motion for animation
+
+### CMS
+
+Headless CMS or custom CMS.
+
+Recommended content collections:
+
+* Products
+* Product categories
+* Projects
+* Blog posts
+* Resources
+* Testimonials
+* FAQs
+* Company information
+
+---
+
+# 31. CMS REQUIREMENTS
+
+Admin should be able to manage:
+
+## PRODUCTS
+
+Name
+
+Description
+
+Images
+
+Technical specifications
+
+Applications
+
+Features
+
+Documents
+
+---
+
+## PROJECTS
+
+Title
+
+Location
+
+Category
+
+Description
+
+Images
+
+Solutions used
+
+Specifications
+
+---
+
+## BLOG
+
+Title
+
+Category
+
+Cover image
+
+Content
+
+Author
+
+Date
+
+SEO metadata
+
+---
+
+## RESOURCES
+
+Title
+
+Type
+
+Description
+
+PDF
+
+Category
+
+Download link
+
+---
+
+# 32. SEO
+
+Every page must have:
+
+* custom title
+* meta description
+* Open Graph image
+* canonical URL
+* structured headings
+* semantic HTML
+* optimized images
+* alt text
+* schema markup where relevant
+
+Target keyword families:
+
+**volet roulant maroc**
+
+**volet roulant aluminium maroc**
+
+**volet roulant casablanca**
+
+**volet roulant marrakech**
+
+**motorisation volet roulant maroc**
+
+**portail automatique maroc**
+
+**porte sectionnelle maroc**
+
+**profilé aluminium maroc**
+
+But SEO must never make the copy feel robotic.
+
+---
+
+# 33. PERFORMANCE
+
+Target:
+
+### Lighthouse
+
+Performance: 90+
+
+Accessibility: 95+
+
+Best Practices: 95+
+
+SEO: 95+
+
+Requirements:
+
+* WebP / AVIF images
+* lazy loading
+* responsive image sizes
+* minimal JavaScript
+* optimized fonts
+* optimized animations
+* avoid unnecessary video loading
+* preload only critical assets
+
+---
+
+# 34. ACCESSIBILITY
+
+Must support:
+
+* keyboard navigation
+* proper contrast
+* semantic HTML
+* visible focus states
+* alt text
+* accessible forms
+* reduced-motion preference
+
+Animations must respect:
+
+`prefers-reduced-motion`
+
+---
+
+# 35. COMPONENT SYSTEM
+
+Create reusable components.
+
+### Navigation
+
+`Navbar`
+
+`MegaMenu`
+
+`MobileMenu`
+
+### Buttons
+
+`PrimaryButton`
+
+`SecondaryButton`
+
+`MagneticButton`
+
+### Cards
+
+`ProductCard`
+
+`ProjectCard`
+
+`ArticleCard`
+
+`ResourceCard`
+
+### Sections
+
+`Hero`
+
+`StatementSection`
+
+`ProductGrid`
+
+`ProjectShowcase`
+
+`TechnicalSpecs`
+
+`CTASection`
+
+`LogoStrip`
+
+### Forms
+
+`QuoteForm`
+
+`ContactForm`
+
+### UI
+
+`Modal`
+
+`Accordion`
+
+`Lightbox`
+
+`PageTransition`
+
+---
+
+# 36. CONTENT TONE
+
+French copy must be:
+
+* precise
+* confident
+* elegant
+* concise
+* technical when necessary
+* human
+* premium
+
+Avoid:
+
+"Nous sommes les meilleurs."
+
+"Une qualité exceptionnelle."
+
+"Une solution révolutionnaire."
+
+"Nous sommes leaders."
+
+unless supported by evidence.
+
+Prefer:
+
+**Conçu sur mesure.**
+
+**Pensé pour durer.**
+
+**Automatisé pour votre quotidien.**
+
+**Une solution adaptée à votre architecture.**
+
+---
+
+# 37. DO NOT DO
+
+Absolutely avoid:
+
+❌ generic blue corporate design
+
+❌ excessive gradients
+
+❌ stock photography
+
+❌ too many icons
+
+❌ giant paragraphs
+
+❌ excessive rounded cards
+
+❌ generic SaaS layouts
+
+❌ unnecessary glassmorphism
+
+❌ over-animated UI
+
+❌ random statistics
+
+❌ fake testimonials
+
+❌ fake certifications
+
+❌ fake awards
+
+❌ invented technical specifications
+
+❌ invented clients
+
+❌ invented projects
+
+---
+
+# 38. PREMIUM DESIGN PRINCIPLE
+
+The most important rule:
+
+## LESS, BUT BETTER.
+
+One exceptional image is better than six mediocre images.
+
+One powerful headline is better than a paragraph.
+
+One precise technical specification is better than five marketing claims.
+
+Whitespace is part of the design.
+
+Typography is part of the architecture.
+
+Photography is part of the product.
+
+---
+
+# 39. HOMEPAGE FINAL STRUCTURE
+
+The final homepage should follow this sequence:
+
+1. **Navigation**
+2. **Hero**
+3. **Brand statement**
+4. **Solutions**
+5. **Featured product**
+6. **Why STRONG RIDEAUX**
+7. **Projects**
+8. **Professionals**
+9. **Technical library**
+10. **Insights**
+11. **Quote CTA**
+12. **Footer**
+
+---
+
+# 40. PRIMARY CONVERSION GOAL
+
+The website has one main business objective:
+
+## GENERATE QUALIFIED PROJECT REQUESTS.
+
+Every major section should eventually lead toward:
+
+**DEMANDER UN DEVIS**
+
+or
+
+**PARLER DE VOTRE PROJET**
+
+Secondary goals:
+
+* establish authority
+* generate B2B leads
+* showcase products
+* support architects
+* improve SEO
+* distribute technical documentation
+* build trust
+
+---
+
+# 41. FINAL CREATIVE DIRECTION
+
+Imagine the website as:
+
+> **A premium architectural catalogue transformed into an interactive digital experience.**
+
+The user should feel as if they are exploring a high-end industrial design studio.
+
+Not a normal Moroccan company website.
+
+Not an online shop.
+
+Not a brochure.
+
+Instead:
+
+## STRONG RIDEAUX
+
+### ENGINEERED FOR MODERN SPACES.
+
+Every pixel should reinforce:
+
+**PRECISION.**
+
+**PROTECTION.**
+
+**PERFORMANCE.**
+
+**DESIGN.**
+
+**TRUST.**
+
+---
+
+# 42. DEVELOPMENT INSTRUCTION
+
+Build the website as a complete production-ready experience.
+
+Do not create placeholder-style generic sections.
+
+Do not use Lorem Ipsum.
+
+Do not invent company information.
+
+Use the existing STRONG RIDEAUX content as the factual foundation and rewrite it into the new premium structure.
+
+Where information is missing:
+
+`[CONTENT REQUIRED]`
+
+Where an image is required:
+
+`[IMAGE REQUIRED — architectural roller shutter]`
+
+Where a technical specification needs confirmation:
+
+`[TECHNICAL SPECIFICATION TO VERIFY]`
+
+The final result should be visually impressive even before every content asset is supplied.
+
+The website should feel like a company that works on serious architectural and industrial projects.
+
+---
+
+# 43. SUCCESS CRITERIA
+
+The redesign is successful if:
+
+### Within 5 seconds
+
+A visitor understands:
+
+**STRONG RIDEAUX provides premium closure, protection and automation solutions.**
+
+### Within 20 seconds
+
+They understand:
+
+* what STRONG RIDEAUX offers
+* who it serves
+* why it is credible
+
+### Within 60 seconds
+
+They can:
+
+* explore a solution
+* view a project
+* access technical documentation
+* request a quote
+
+### Overall impression
+
+The visitor should think:
+
+> **"This is a serious company."**
+
+and ideally:
+
+> **"I would trust them with my project."**
+
+---
+
+# END OF PRD
