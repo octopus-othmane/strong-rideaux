@@ -340,7 +340,7 @@ export const EntrepriseContent = () => {
   return (
     <main id="main-content" className="min-h-screen bg-[#F3F1EC] text-[#111111]">
 
-      <section className="sticky top-0 w-full h-screen overflow-hidden bg-[#111111] z-0 flex items-center justify-center">
+      <section className="sticky top-0 w-full h-[100dvh] overflow-hidden bg-[#111111] z-0 flex items-center justify-center">
         <video
           autoPlay
           muted
