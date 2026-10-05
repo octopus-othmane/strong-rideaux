@@ -23,15 +23,15 @@ export function ProductCard({ title, description, imageUrl, href, index = 0 }: P
     >
       <Link 
         href={href} 
-        className="group flex flex-col h-full bg-white border border-[#D0D0CC]/30 hover:border-[#111111]/20 transition-colors duration-500 overflow-hidden"
+        className="group flex flex-col h-full bg-white border border-[#D0D0CC]/30 hover:border-[#111111]/20 active:scale-[0.98] transition-all duration-500 overflow-hidden"
       >
         {imageUrl && (
             <div className="relative aspect-[4/3] w-full overflow-hidden bg-white">
-              <div className="absolute inset-0 bg-[#111111]/5 group-hover:bg-transparent z-10 transition-colors duration-500" />
+              <div className="absolute inset-0 bg-[#111111]/5 group-hover:bg-transparent group-active:bg-transparent z-10 transition-colors duration-500" />
               <img 
                 src={imageUrl} 
                 alt={title} 
-                className="h-full w-full object-contain p-6 transition-transform duration-1000 ease-out group-hover:scale-105"
+                className="h-full w-full object-contain p-6 transition-transform duration-1000 ease-out group-hover:scale-105 group-active:scale-105"
               />
             </div>
         )}
@@ -40,7 +40,7 @@ export function ProductCard({ title, description, imageUrl, href, index = 0 }: P
             <h3 className="text-2xl font-bold uppercase tracking-tight text-[#111111] leading-tight">
               {title}
             </h3>
-            <div className="bg-[#F3F1EC] p-2 shrink-0 transition-colors duration-300 group-hover:bg-[#111111] group-hover:text-[#F3F1EC]">
+            <div className="bg-[#F3F1EC] p-2 shrink-0 transition-colors duration-300 group-hover:bg-[#111111] group-hover:text-[#F3F1EC] group-active:bg-[#111111] group-active:text-[#F3F1EC]">
               <ArrowUpRight className="w-5 h-5" />
             </div>
           </div>

@@ -95,10 +95,10 @@ export const HeroShutterExperience = ({
                 {title}
               </h1>
               <div className="flex flex-col sm:flex-row gap-6">
-                <Button href="/produits" variant="primary" className="bg-[#F3F1EC] text-[#111111] hover:bg-[#D0D0CC]">
+                <Button href="/produits" variant="primary" className="bg-[#F3F1EC] text-[#111111] hover:bg-[#D0D0CC] active:bg-[#D0D0CC] active:scale-[0.98]">
                   Explorer nos produits
                 </Button>
-                <Button href="/devis" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] hover:text-[#111111]">
+                <Button href="/devis" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] hover:text-[#111111] active:bg-[#F3F1EC] active:text-[#111111] active:scale-[0.98]">
                   Parler de votre projet
                 </Button>
               </div>

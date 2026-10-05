@@ -115,21 +115,21 @@ export const WhyStrongRideaux = () => {
               onMouseEnter={() => setHoveredIndex(index)}
             >
               <div className="md:w-1/4">
-                <span className="font-mono text-sm tracking-widest text-[#A7A7A3] group-hover:text-[#8A4A32] transition-colors duration-500">
+                <span className="font-mono text-sm tracking-widest text-[#A7A7A3] group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors duration-500">
                   PRINCIPE / {principle.id}
                 </span>
               </div>
               <div className="md:w-3/4 flex flex-col md:flex-row md:items-center justify-between gap-8">
-                <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] group-hover:translate-x-4 transition-all duration-500">
+                <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] group-hover:translate-x-4 group-active:text-[#8A4A32] group-active:translate-x-4 transition-all duration-500">
                   {principle.title}
                 </h3>
-                <p className="text-lg text-[#A7A7A3] md:max-w-xs leading-relaxed group-hover:text-[#111111] transition-colors duration-500">
+                <p className="text-lg text-[#A7A7A3] md:max-w-xs leading-relaxed group-hover:text-[#111111] group-active:text-[#111111] transition-colors duration-500">
                   {principle.desc}
                 </p>
               </div>
               
               {/* Subtle hover background effect */}
-              <div className="absolute inset-0 bg-[#A7A7A3]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10 pointer-events-none" />
+              <div className="absolute inset-0 bg-[#A7A7A3]/5 opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-500 -z-10 pointer-events-none" />
             </motion.div>
           ))}
           <div className="border-t border-[#111111]/20" />

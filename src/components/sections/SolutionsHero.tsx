@@ -86,13 +86,13 @@ export const SolutionsHero = () => {
             >
               <Link href={`/produits/${cat.slug}`} className="absolute inset-0 z-10" aria-label={`Voir ${cat.title}`} />
 
-              <div className="flex flex-col lg:flex-row lg:items-center justify-between py-8 md:py-10 gap-4 lg:gap-12 transition-all duration-500 group-hover:pl-4">
+              <div className="flex flex-col lg:flex-row lg:items-center justify-between py-8 md:py-10 gap-4 lg:gap-12 transition-all duration-500 group-hover:pl-4 group-active:pl-4">
                 {/* Left: Index + Title */}
                 <div className="flex items-baseline gap-6 lg:w-2/5">
                   <span className="font-mono text-xs text-[#A7A7A3]/40 tracking-widest">
                     {String(i + 1).padStart(2, '0')}
                   </span>
-                  <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tight text-[#F3F1EC] group-hover:text-[#8A4A32] transition-colors duration-500">
+                  <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tight text-[#F3F1EC] group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors duration-500">
                     {cat.title}
                   </h2>
                 </div>
@@ -107,7 +107,7 @@ export const SolutionsHero = () => {
                   <span className="font-mono text-[10px] tracking-[0.2em] text-[#8A4A32] uppercase">
                     {cat.tag}
                   </span>
-                  <ArrowRight className="w-5 h-5 text-[#A7A7A3] transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#F3F1EC]" />
+                  <ArrowRight className="w-5 h-5 text-[#A7A7A3] transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#F3F1EC] group-active:translate-x-2 group-active:text-[#F3F1EC]" />
                 </div>
               </div>
             </motion.div>

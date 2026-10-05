@@ -159,10 +159,10 @@ export const Navbar = () => {
                       className="group flex items-center justify-between py-5"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      <span className="text-3xl md:text-4xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] transition-colors duration-300">
+                      <span className="text-3xl md:text-4xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors duration-300">
                         {link.name}
                       </span>
-                      <ArrowUpRight className="w-5 h-5 text-[#A7A7A3] opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                      <ArrowUpRight className="w-5 h-5 text-[#A7A7A3] opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-active:translate-x-0.5 group-active:-translate-y-0.5" />
                     </Link>
                   </motion.div>
                 </div>
@@ -178,7 +178,7 @@ export const Navbar = () => {
             >
               <Link
                 href="/devis"
-                className="block w-full text-center bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] hover:text-[#F3F1EC] transition-all duration-500"
+                className="block w-full text-center bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] hover:text-[#F3F1EC] active:bg-[#8A4A32] active:text-[#F3F1EC] active:scale-[0.98] transition-all duration-500"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Demander un devis
@@ -187,7 +187,7 @@ export const Navbar = () => {
                 href="https://wa.me/21269898220"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-3 w-full mt-3 bg-[#25D366] text-white px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#1DA851] transition-all duration-500 rounded-sm"
+                className="flex items-center justify-center gap-3 w-full mt-3 bg-[#25D366] text-white px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#1DA851] active:bg-[#1DA851] active:scale-[0.98] transition-all duration-500 rounded-sm"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <svg viewBox="0 0 32 32" fill="none" className="w-5 h-5">

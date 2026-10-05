@@ -80,7 +80,7 @@ export const Footer = () => {
             >
               <Link
                 href="/devis"
-                className="group inline-flex items-center gap-3 bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] hover:text-[#F3F1EC] transition-all duration-500"
+                className="group inline-flex items-center gap-3 bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] hover:text-[#F3F1EC] active:bg-[#8A4A32] active:text-[#F3F1EC] active:scale-[0.98] transition-all duration-500"
               >
                 Demander un devis
                 <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -124,7 +124,7 @@ export const Footer = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] transition-colors duration-300"
+                    className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] active:text-[#8A4A32] transition-colors duration-300"
                   >
                     {link.name}
                   </Link>
@@ -143,7 +143,7 @@ export const Footer = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] transition-colors duration-300"
+                    className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] active:text-[#8A4A32] transition-colors duration-300"
                   >
                     {link.name}
                   </Link>
@@ -165,7 +165,7 @@ export const Footer = () => {
               <li>
                 <a
                   href="tel:+212522000000"
-                  className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] transition-colors duration-300"
+                  className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] active:text-[#8A4A32] transition-colors duration-300"
                 >
                   +212 522 00 00 00
                 </a>
@@ -173,7 +173,7 @@ export const Footer = () => {
               <li>
                 <a
                   href="mailto:contact@strongrideaux.com"
-                  className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] transition-colors duration-300"
+                  className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] active:text-[#8A4A32] transition-colors duration-300"
                 >
                   contact@strongrideaux.com
                 </a>
@@ -190,10 +190,10 @@ export const Footer = () => {
             © {new Date().getFullYear()} STRONG RIDEAUX — Tous droits réservés
           </p>
           <div className="flex items-center gap-8 text-[11px] tracking-wider text-[#A7A7A3]/50 font-mono uppercase">
-            <Link href="/mentions-legales" className="hover:text-[#F3F1EC] transition-colors duration-300">
+            <Link href="/mentions-legales" className="hover:text-[#F3F1EC] active:text-[#F3F1EC] transition-colors duration-300">
               Mentions légales
             </Link>
-            <Link href="/confidentialite" className="hover:text-[#F3F1EC] transition-colors duration-300">
+            <Link href="/confidentialite" className="hover:text-[#F3F1EC] active:text-[#F3F1EC] transition-colors duration-300">
               Confidentialité
             </Link>
           </div>

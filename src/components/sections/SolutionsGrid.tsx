@@ -132,17 +132,17 @@ export const SolutionsGrid = () => {
                   <img
                     src={solution.image}
                     alt={solution.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                    className="w-full h-full object-cover group-hover:scale-105 group-active:scale-105 transition-transform duration-700 ease-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/80 via-transparent to-transparent opacity-60 pointer-events-none" />
                 </div>
 
                 <div className="flex flex-col">
-                  <h4 className="text-2xl md:text-4xl font-bold uppercase tracking-tight mb-8 group-hover:text-[#8A4A32] transition-colors duration-300">
+                  <h4 className="text-2xl md:text-4xl font-bold uppercase tracking-tight mb-8 group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors duration-300">
                     {solution.title}
                   </h4>
                   <div>
-                    <Button href={solution.href} variant="outline" className="border-[#333333] text-[#F3F1EC] hover:bg-[#8A4A32] hover:text-[#F3F1EC] hover:border-[#8A4A32]">
+                    <Button href={solution.href} variant="outline" className="border-[#333333] text-[#F3F1EC] hover:bg-[#8A4A32] hover:text-[#F3F1EC] hover:border-[#8A4A32] active:bg-[#8A4A32] active:text-[#F3F1EC] active:border-[#8A4A32] active:scale-[0.98]">
                       Explorer la gamme
                     </Button>
                   </div>
