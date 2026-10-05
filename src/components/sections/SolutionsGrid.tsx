@@ -3,6 +3,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
+import Link from 'next/link';
 
 const solutions = [
   {
@@ -128,14 +129,14 @@ export const SolutionsGrid = () => {
                 key={solution.id}
                 className="w-[85vw] md:w-[50vw] lg:w-[35vw] flex-shrink-0 group"
               >
-                <div className="relative aspect-[4/3] md:aspect-[16/10] rounded-2xl overflow-hidden bg-white mb-8 flex items-center justify-center">
+                <Link href={solution.href} className="block relative aspect-[4/3] md:aspect-[16/10] rounded-2xl overflow-hidden bg-white mb-8 flex items-center justify-center cursor-pointer">
                   <img
                     src={solution.image}
                     alt={solution.title}
                     className="w-full h-full object-cover group-hover:scale-105 group-active:scale-105 transition-transform duration-700 ease-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/80 via-transparent to-transparent opacity-60 pointer-events-none" />
-                </div>
+                </Link>
 
                 <div className="flex flex-col">
                   <h4 className="text-2xl md:text-4xl font-bold uppercase tracking-tight mb-8 group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors duration-300">

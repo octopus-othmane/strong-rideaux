@@ -25,7 +25,7 @@ export const organizationSchema = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+212-522-000000',
+    telephone: '+212-669-333011',
     contactType: 'customer service',
     availableLanguage: ['French', 'Arabic'],
   },
@@ -37,11 +37,11 @@ export const localBusinessSchema = {
   '@type': 'LocalBusiness',
   name: 'STRONG RIDEAUX',
   url: 'https://strongrideaux.com',
-  telephone: '+212-522-000000',
+  telephone: '+212-669-333011',
   email: 'contact@strongrideaux.com',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Zone Industrielle',
+    streetAddress: 'Boulevard colonel idriss el harti hay salama groupe 3 numero 977/979',
     addressLocality: 'Casablanca',
     addressCountry: 'MA',
   },

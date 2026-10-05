@@ -159,15 +159,15 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li className="text-sm text-[#F3F1EC]/70">
-                Zone Industrielle<br />
+                Boulevard colonel idriss el harti hay salama groupe 3 numero 977/979<br />
                 Casablanca, Maroc
               </li>
               <li>
                 <a
-                  href="tel:+212522000000"
+                  href="tel:+212669333011"
                   className="text-sm text-[#F3F1EC]/70 hover:text-[#8A4A32] active:text-[#8A4A32] transition-colors duration-300"
                 >
-                  +212 522 00 00 00
+                  +212 669 33 30 11
                 </a>
               </li>
               <li>

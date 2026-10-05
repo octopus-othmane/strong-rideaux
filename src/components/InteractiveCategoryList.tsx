@@ -30,11 +30,11 @@ export const InteractiveCategoryList: React.FC<InteractiveCategoryListProps> = (
             >
               <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
                 <div className="flex flex-col">
-                  <span className={`font-mono text-xs tracking-widest uppercase mb-4 transition-colors duration-300 ${isActive ? 'lg:text-white/60 text-[#111111]' : 'text-[#A7A7A3]'}`}>
+                  <span className={`font-mono text-xs tracking-widest uppercase mb-4 transition-colors duration-300 ${isActive ? 'lg:text-white/60 text-[#111111]' : 'text-[#A7A7A3] group-hover:text-[#111111] group-active:text-[#111111]'}`}>
                     0{index + 1}
                   </span>
                   <h2
-                    className={`text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight leading-none transition-all duration-300 ${isActive ? 'lg:text-white text-[#111111]' : 'text-[#111111]/40'}`}
+                    className={`text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight leading-none transition-all duration-300 ${isActive ? 'lg:text-white text-[#111111]' : 'text-[#111111]/40 group-hover:text-[#111111] group-active:text-[#111111] group-hover:translate-x-2'}`}
                   >
                     {category.name}
                   </h2>

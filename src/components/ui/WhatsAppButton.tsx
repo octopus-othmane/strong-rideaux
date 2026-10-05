@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const WHATSAPP_NUMBER = '21269898220';
+const WHATSAPP_NUMBER = '212669333011';
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 export const WhatsAppButton = () => {

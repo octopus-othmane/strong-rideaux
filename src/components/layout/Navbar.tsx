@@ -184,7 +184,7 @@ export const Navbar = () => {
                 Demander un devis
               </Link>
               <a
-                href="https://wa.me/21269898220"
+                href="https://wa.me/212669333011"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full mt-3 bg-[#25D366] text-white px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#1DA851] active:bg-[#1DA851] active:scale-[0.98] transition-all duration-500 rounded-sm"
@@ -197,7 +197,7 @@ export const Navbar = () => {
               </a>
               <div className="flex items-center justify-between mt-6 text-[10px] font-mono tracking-[0.2em] uppercase text-[#A7A7A3]/40">
                 <span>contact@strongrideaux.com</span>
-                <span>+212 698 98 220</span>
+                <span>+212 669 33 30 11</span>
               </div>
             </motion.div>
           </motion.div>
