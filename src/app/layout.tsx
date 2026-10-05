@@ -40,8 +40,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="scroll-smooth">
-      <body className={`${manrope.variable} font-sans antialiased flex flex-col min-h-screen overflow-x-hidden`}>
+    <html lang="fr" className="scroll-smooth overflow-x-hidden">
+      <body className={`${manrope.variable} font-sans antialiased flex flex-col min-h-screen`}>
         <JsonLd data={organizationSchema} />
         <JsonLd data={localBusinessSchema} />
         <Navbar />
