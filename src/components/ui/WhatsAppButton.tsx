@@ -12,7 +12,7 @@ export const WhatsAppButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Nous contacter sur WhatsApp"
-      className="fixed bottom-6 right-6 z-[45] group flex items-center"
+      className="fixed bottom-6 right-6 z-[45] group flex items-center transition-all duration-300 [.menu-open_&]:opacity-0 [.menu-open_&]:pointer-events-none [.menu-open_&]:scale-90"
     >
       {/* Expanding pill background */}
       <div className="absolute right-0 flex items-center h-14 bg-[#25D366] rounded-full overflow-hidden transition-all duration-500 ease-in-out w-14 group-hover:w-48 group-active:w-48 shadow-lg shadow-[#25D366]/30 group-hover:shadow-xl group-active:shadow-xl group-hover:shadow-[#25D366]/40 group-active:shadow-[#25D366]/40">

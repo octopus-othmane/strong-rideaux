@@ -6,8 +6,8 @@ import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/Button';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
-
 import { usePathname } from 'next/navigation';
+import { useEffect } from 'react';
 
 const navLinks = [
   { name: 'Accueil', href: '/' },
@@ -51,6 +51,21 @@ export const Navbar = () => {
   useMotionValueEvent(scrollY, 'change', (latest) => {
     setIsScrolled(latest > 50);
   });
+
+  // Toggle body class and prevent scrolling when menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.classList.add('menu-open');
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.classList.remove('menu-open');
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.classList.remove('menu-open');
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
 
   return (
     <>
@@ -171,33 +186,36 @@ export const Navbar = () => {
 
             {/* Bottom CTA */}
             <motion.div
-              className="px-8 pb-10"
+              className="px-8 pb-12 mt-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, duration: 0.5 }}
+              transition={{ delay: 0.4, duration: 0.5 }}
             >
-              <Link
-                href="/devis"
-                className="block w-full text-center bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] active:bg-[#8A4A32] hover:text-[#F3F1EC] active:text-[#F3F1EC] active:bg-[#8A4A32] active:text-[#F3F1EC] active:scale-[0.98] transition-all duration-500"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Demander un devis
-              </Link>
-              <a
-                href="https://wa.me/212669333011"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-3 w-full mt-3 bg-[#25D366] text-white px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#1DA851] active:bg-[#1DA851] active:scale-[0.98] transition-all duration-500 rounded-sm"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                <svg viewBox="0 0 32 32" fill="none" className="w-5 h-5">
-                  <path d="M16.004 2.667A13.28 13.28 0 002.72 15.947a13.18 13.18 0 001.84 6.72L2.667 29.333l6.84-1.84A13.3 13.3 0 0016.004 29.3 13.28 13.28 0 0029.333 16 13.28 13.28 0 0016.004 2.667zm7.71 18.706c-.32.906-1.88 1.733-2.587 1.84-.706.107-1.36.48-4.56-.946-3.84-1.707-6.28-5.627-6.467-5.88-.186-.254-1.52-2.027-1.52-3.867s.96-2.747 1.307-3.12c.346-.374.76-.467.96-.467.24 0 .48.013.693.027.213.013.534-.08.827.64.32.747 1.067 2.587 1.16 2.773.093.187.16.414.027.667-.134.253-.2.4-.4.627-.2.227-.413.506-.587.68-.2.2-.413.413-.173.8.24.387 1.053 1.733 2.267 2.813 1.56 1.387 2.867 1.827 3.28 2.027.413.2.653.16.893-.107.24-.267 1.04-1.2 1.32-1.627.28-.4.56-.333.933-.2.374.133 2.387 1.12 2.8 1.32.413.2.68.307.773.48.107.173.107.986-.213 1.92z" fill="white"/>
-                </svg>
-                WhatsApp
-              </a>
-              <div className="flex items-center justify-between mt-6 text-[10px] font-mono tracking-[0.2em] uppercase text-[#A7A7A3]/40">
-                <span>contact@strongrideaux.com</span>
-                <span>+212 669 33 30 11</span>
+              <div className="space-y-4">
+                <Link
+                  href="/devis"
+                  className="group flex items-center justify-center w-full bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] active:bg-[#8A4A32] hover:text-[#F3F1EC] active:text-[#F3F1EC] transition-all duration-500 rounded-sm"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Demander un devis
+                </Link>
+                <a
+                  href="https://wa.me/212669333011"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-center gap-3 w-full bg-[#25D366]/10 border border-[#25D366]/20 text-[#25D366] px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#25D366] active:bg-[#25D366] hover:text-white active:text-white transition-all duration-500 rounded-sm"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  <svg viewBox="0 0 32 32" fill="currentColor" className="w-5 h-5">
+                    <path d="M16.004 2.667A13.28 13.28 0 002.72 15.947a13.18 13.18 0 001.84 6.72L2.667 29.333l6.84-1.84A13.3 13.3 0 0016.004 29.3 13.28 13.28 0 0029.333 16 13.28 13.28 0 0016.004 2.667zm7.71 18.706c-.32.906-1.88 1.733-2.587 1.84-.706.107-1.36.48-4.56-.946-3.84-1.707-6.28-5.627-6.467-5.88-.186-.254-1.52-2.027-1.52-3.867s.96-2.747 1.307-3.12c.346-.374.76-.467.96-.467.24 0 .48.013.693.027.213.013.534-.08.827.64.32.747 1.067 2.587 1.16 2.773.093.187.16.414.027.667-.134.253-.2.4-.4.627-.2.227-.413.506-.587.68-.2.2-.413.413-.173.8.24.387 1.053 1.733 2.267 2.813 1.56 1.387 2.867 1.827 3.28 2.027.413.2.653.16.893-.107.24-.267 1.04-1.2 1.32-1.627.28-.4.56-.333.933-.2.374.133 2.387 1.12 2.8 1.32.413.2.68.307.773.48.107.173.107.986-.213 1.92z"/>
+                  </svg>
+                  WhatsApp
+                </a>
+              </div>
+              <div className="flex items-center justify-center mt-8 pt-6 border-t border-white/5">
+                <a href="mailto:contact@strongrideaux.com" className="text-[10px] font-mono tracking-[0.25em] uppercase text-[#A7A7A3]/60 hover:text-white active:text-white transition-colors duration-300">
+                  contact@strongrideaux.com
+                </a>
               </div>
             </motion.div>
           </motion.div>
