@@ -2,11 +2,11 @@
 
 import React, { useRef, useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, Variants } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
 import { Shield, Zap, Wrench, Award, ChevronRight, MessageSquare, Ruler, Factory, Truck } from 'lucide-react';
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (delay: number = 0) => ({
     opacity: 1,
@@ -142,7 +142,7 @@ const ProcessTimeline = () => {
 
   const lineHeight = useTransform(scrollYProgress, [0, 1], ['0%', '100%']);
 
-  const stepVariants = {
+  const stepVariants: Variants = {
     hidden: (side: 'left' | 'right') => ({
       opacity: 0,
       x: side === 'left' ? -60 : 60,
