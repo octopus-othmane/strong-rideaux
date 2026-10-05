@@ -352,7 +352,7 @@ export const EntrepriseContent = () => {
         </video>
       </section>
 
-      <div className="relative z-10 bg-[#F3F1EC]">
+      <div className="relative z-10 bg-[#F3F1EC] overflow-x-clip">
         
         {/* ────── EXPERTISE VOLETS ────── */}
         <section className="lg:min-h-screen lg:flex lg:items-center pt-32 pb-24 lg:py-20 bg-[#111111] text-[#F3F1EC]">
