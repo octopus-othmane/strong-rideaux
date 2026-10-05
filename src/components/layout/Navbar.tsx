@@ -157,10 +157,10 @@ export const Navbar = () => {
             exit="closed"
           >
             {/* Header spacer */}
-            <div className="h-20" />
+            <div className="h-28" />
 
             {/* Nav Links */}
-            <nav className="flex-1 flex flex-col justify-center px-8 -mt-16" aria-label="Navigation mobile">
+            <nav className="flex-1 flex flex-col justify-center px-8 mb-10 min-h-[300px]" aria-label="Navigation mobile">
               {navLinks.map((link, i) => (
                 <div key={link.name} className="overflow-hidden border-b border-[#F3F1EC]/10 last:border-b-0">
                   <motion.div
@@ -210,11 +210,6 @@ export const Navbar = () => {
                     <path d="M16.004 2.667A13.28 13.28 0 002.72 15.947a13.18 13.18 0 001.84 6.72L2.667 29.333l6.84-1.84A13.3 13.3 0 0016.004 29.3 13.28 13.28 0 0029.333 16 13.28 13.28 0 0016.004 2.667zm7.71 18.706c-.32.906-1.88 1.733-2.587 1.84-.706.107-1.36.48-4.56-.946-3.84-1.707-6.28-5.627-6.467-5.88-.186-.254-1.52-2.027-1.52-3.867s.96-2.747 1.307-3.12c.346-.374.76-.467.96-.467.24 0 .48.013.693.027.213.013.534-.08.827.64.32.747 1.067 2.587 1.16 2.773.093.187.16.414.027.667-.134.253-.2.4-.4.627-.2.227-.413.506-.587.68-.2.2-.413.413-.173.8.24.387 1.053 1.733 2.267 2.813 1.56 1.387 2.867 1.827 3.28 2.027.413.2.653.16.893-.107.24-.267 1.04-1.2 1.32-1.627.28-.4.56-.333.933-.2.374.133 2.387 1.12 2.8 1.32.413.2.68.307.773.48.107.173.107.986-.213 1.92z"/>
                   </svg>
                   WhatsApp
-                </a>
-              </div>
-              <div className="flex items-center justify-center mt-8 pt-6 border-t border-white/5">
-                <a href="mailto:contact@strongrideaux.com" className="text-[10px] font-mono tracking-[0.25em] uppercase text-[#A7A7A3]/60 hover:text-white active:text-white transition-colors duration-300">
-                  contact@strongrideaux.com
                 </a>
               </div>
             </motion.div>
