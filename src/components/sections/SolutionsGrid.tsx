@@ -143,7 +143,7 @@ export const SolutionsGrid = () => {
                     {solution.title}
                   </h4>
                   <div>
-                    <Button href={solution.href} variant="outline" className="border-[#333333] text-[#F3F1EC] hover:bg-[#8A4A32] hover:text-[#F3F1EC] hover:border-[#8A4A32] active:bg-[#8A4A32] active:text-[#F3F1EC] active:border-[#8A4A32] active:scale-[0.98]">
+                    <Button href={solution.href} variant="outline" className="border-[#333333] text-[#F3F1EC] hover:bg-[#8A4A32] active:bg-[#8A4A32] hover:text-[#F3F1EC] active:text-[#F3F1EC] hover:border-[#8A4A32] active:border-[#8A4A32] active:bg-[#8A4A32] active:text-[#F3F1EC] active:border-[#8A4A32] active:scale-[0.98]">
                       Explorer la gamme
                     </Button>
                   </div>

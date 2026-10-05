@@ -34,7 +34,7 @@ export default function CategoryPage() {
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="mb-12"
         >
-          <Link href="/produits" className="inline-flex items-center text-[11px] font-mono tracking-widest uppercase text-[#A7A7A3] hover:text-[#111111] transition-colors">
+          <Link href="/produits" className="inline-flex items-center text-[11px] font-mono tracking-widest uppercase text-[#A7A7A3] hover:text-[#111111] active:text-[#111111] transition-colors">
             <ArrowLeft className="mr-3 h-4 w-4" />
             Retour aux produits
           </Link>

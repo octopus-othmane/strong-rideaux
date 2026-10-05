@@ -25,7 +25,7 @@ export const BlogShowcase = () => {
                   src={post.image} 
                   alt={post.title} 
                   fill 
-                  className="object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                  className="object-cover transition-transform duration-1000 ease-out group-hover:scale-105 group-active:scale-105"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
@@ -35,13 +35,13 @@ export const BlogShowcase = () => {
                   <span className="font-mono text-[10px] tracking-widest uppercase text-[#A7A7A3]">{post.date}</span>
                   <span className="font-mono text-[10px] tracking-widest uppercase text-[#A7A7A3]">{post.category}</span>
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] transition-colors mb-4">
+                <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors mb-4">
                   {post.title}
                 </h3>
                 <p className="text-[#111111]/80 text-sm mb-6 line-clamp-3">
                   {post.summary}
                 </p>
-                <div className="inline-flex font-bold text-xs tracking-wider uppercase border-b border-[#111111] pb-1 group-hover:text-[#8A4A32] group-hover:border-[#8A4A32] transition-colors">
+                <div className="inline-flex font-bold text-xs tracking-wider uppercase border-b border-[#111111] pb-1 group-hover:text-[#8A4A32] group-active:text-[#8A4A32] group-hover:border-[#8A4A32] group-active:border-[#8A4A32] transition-colors">
                   Lire l'article
                 </div>
               </div>

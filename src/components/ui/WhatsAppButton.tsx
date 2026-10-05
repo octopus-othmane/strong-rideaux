@@ -15,15 +15,15 @@ export const WhatsAppButton = () => {
       className="fixed bottom-6 right-6 z-[45] group flex items-center"
     >
       {/* Expanding pill background */}
-      <div className="absolute right-0 flex items-center h-14 bg-[#25D366] rounded-full overflow-hidden transition-all duration-500 ease-in-out w-14 group-hover:w-48 shadow-lg shadow-[#25D366]/30 group-hover:shadow-xl group-hover:shadow-[#25D366]/40">
+      <div className="absolute right-0 flex items-center h-14 bg-[#25D366] rounded-full overflow-hidden transition-all duration-500 ease-in-out w-14 group-hover:w-48 group-active:w-48 shadow-lg shadow-[#25D366]/30 group-hover:shadow-xl group-active:shadow-xl group-hover:shadow-[#25D366]/40 group-active:shadow-[#25D366]/40">
         {/* Text label */}
-        <span className="pl-5 pr-16 text-white font-semibold text-sm uppercase tracking-wider whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+        <span className="pl-5 pr-16 text-white font-semibold text-sm uppercase tracking-wider whitespace-nowrap opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-300 delay-100">
           Contacter
         </span>
       </div>
 
       {/* WhatsApp icon circle - always on top */}
-      <div className="relative z-10 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[#25D366]/30 transition-shadow duration-300 group-hover:shadow-xl group-hover:shadow-[#25D366]/40">
+      <div className="relative z-10 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[#25D366]/30 transition-shadow duration-300 group-hover:shadow-xl group-active:shadow-xl group-hover:shadow-[#25D366]/40 group-active:shadow-[#25D366]/40">
         <svg
           viewBox="0 0 32 32"
           fill="none"

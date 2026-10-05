@@ -37,11 +37,11 @@ export const MagneticButton = ({
 
   const variants = {
     primary:
-      'bg-[#111111] text-[#F3F1EC] hover:bg-[#8A4A32] border border-transparent',
+      'bg-[#111111] text-[#F3F1EC] hover:bg-[#8A4A32] active:bg-[#8A4A32] border border-transparent',
     secondary:
-      'bg-[#F3F1EC] text-[#111111] hover:bg-[#D0D0CC] border border-transparent',
+      'bg-[#F3F1EC] text-[#111111] hover:bg-[#D0D0CC] active:bg-[#D0D0CC] border border-transparent',
     outline:
-      'bg-transparent text-[#111111] border border-[#111111] hover:bg-[#111111] hover:text-[#F3F1EC]',
+      'bg-transparent text-[#111111] border border-[#111111] hover:bg-[#111111] active:bg-[#111111] hover:text-[#F3F1EC] active:text-[#F3F1EC]',
   };
 
   const baseStyles =

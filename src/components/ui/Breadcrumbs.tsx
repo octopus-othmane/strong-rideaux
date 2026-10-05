@@ -17,7 +17,7 @@ interface BreadcrumbsProps {
 export const Breadcrumbs = ({ items, light = false }: BreadcrumbsProps) => {
   const textColor = light ? 'text-[#F3F1EC]/60' : 'text-[#A7A7A3]';
   const activeColor = light ? 'text-[#F3F1EC]' : 'text-[#111111]';
-  const hoverColor = light ? 'hover:text-[#F3F1EC]' : 'hover:text-[#8A4A32]';
+  const hoverColor = light ? 'hover:text-[#F3F1EC] active:text-[#F3F1EC]' : 'hover:text-[#8A4A32] active:text-[#8A4A32]';
 
   return (
     <nav aria-label="Fil d'Ariane" className="mb-8">

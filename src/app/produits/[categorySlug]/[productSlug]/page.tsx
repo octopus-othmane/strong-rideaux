@@ -110,7 +110,7 @@ export default function ProductPage() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: index * 0.05 }}
                   >
-                    <div className="font-mono text-xs tracking-widest text-[#A7A7A3] mb-2 uppercase group-hover:text-[#8A4A32] transition-colors">
+                    <div className="font-mono text-xs tracking-widest text-[#A7A7A3] mb-2 uppercase group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors">
                       {spec.name}
                     </div>
                     <div className="text-xl font-bold uppercase tracking-tight text-[#111111]">
@@ -130,8 +130,8 @@ export default function ProductPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <Button href={product.catalogueUrl} variant="outline" className="w-fit group text-[#111111] border-[#111111] hover:bg-[#111111] hover:text-[#F3F1EC]">
-                <Download className="mr-3 h-5 w-5 transition-transform duration-300 group-hover:-translate-y-1" />
+              <Button href={product.catalogueUrl} variant="outline" className="w-fit group text-[#111111] border-[#111111] hover:bg-[#111111] active:bg-[#111111] hover:text-[#F3F1EC] active:text-[#F3F1EC]">
+                <Download className="mr-3 h-5 w-5 transition-transform duration-300 group-hover:-translate-y-1 group-active:-translate-y-1" />
                 Télécharger la fiche technique
               </Button>
             </motion.div>

@@ -107,7 +107,7 @@ export const SolutionsHero = () => {
                   <span className="font-mono text-[10px] tracking-[0.2em] text-[#8A4A32] uppercase">
                     {cat.tag}
                   </span>
-                  <ArrowRight className="w-5 h-5 text-[#A7A7A3] transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#F3F1EC] group-active:translate-x-2 group-active:text-[#F3F1EC]" />
+                  <ArrowRight className="w-5 h-5 text-[#A7A7A3] transition-all duration-300 group-hover:translate-x-2 group-active:translate-x-2 group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC] group-active:translate-x-2 group-active:text-[#F3F1EC]" />
                 </div>
               </div>
             </motion.div>

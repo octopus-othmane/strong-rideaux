@@ -34,7 +34,7 @@ export const InteractiveCategoryList: React.FC<InteractiveCategoryListProps> = (
                     0{index + 1}
                   </span>
                   <h2
-                    className={`text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight leading-none transition-all duration-300 ${isActive ? 'lg:text-white text-[#111111]' : 'text-[#111111]/40 group-hover:text-[#111111] group-active:text-[#111111] group-hover:translate-x-2'}`}
+                    className={`text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight leading-none transition-all duration-300 ${isActive ? 'lg:text-white text-[#111111]' : 'text-[#111111]/40 group-hover:text-[#111111] group-active:text-[#111111] group-hover:translate-x-2 group-active:translate-x-2'}`}
                   >
                     {category.name}
                   </h2>
@@ -45,7 +45,7 @@ export const InteractiveCategoryList: React.FC<InteractiveCategoryListProps> = (
                   <img 
                     src={category.imageUrl || `https://placehold.co/800x600/111111/333333?text=${encodeURIComponent(category.name)}`}
                     alt={category.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-active:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 pointer-events-none" />
                 </div>

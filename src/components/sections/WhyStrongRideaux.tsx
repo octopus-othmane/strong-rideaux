@@ -120,7 +120,7 @@ export const WhyStrongRideaux = () => {
                 </span>
               </div>
               <div className="md:w-3/4 flex flex-col md:flex-row md:items-center justify-between gap-8">
-                <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] group-hover:translate-x-4 group-active:text-[#8A4A32] group-active:translate-x-4 transition-all duration-500">
+                <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] group-active:text-[#8A4A32] group-hover:translate-x-4 group-active:translate-x-4 group-active:text-[#8A4A32] group-active:translate-x-4 transition-all duration-500">
                   {principle.title}
                 </h3>
                 <p className="text-lg text-[#A7A7A3] md:max-w-xs leading-relaxed group-hover:text-[#111111] group-active:text-[#111111] transition-colors duration-500">

@@ -48,7 +48,7 @@ export default function DevisPage() {
                     <button 
                       key={type}
                       onClick={() => handleSelect('projectType', type)}
-                      className={`text-left p-8 border ${formData.projectType === type ? 'border-[#8A4A32] bg-[#8A4A32]/10' : 'border-[#F3F1EC]/20 hover:border-[#F3F1EC]/50'} transition-all group relative`}
+                      className={`text-left p-8 border ${formData.projectType === type ? 'border-[#8A4A32] bg-[#8A4A32]/10' : 'border-[#F3F1EC]/20 hover:border-[#F3F1EC]/50 active:border-[#F3F1EC]/50'} transition-all group relative`}
                     >
                       <span className="text-xl md:text-2xl font-bold">{type}</span>
                       {formData.projectType === type && <Check className="absolute top-8 right-8 w-6 h-6 text-[#8A4A32]" />}
@@ -76,7 +76,7 @@ export default function DevisPage() {
                     <button 
                       key={prod}
                       onClick={() => handleSelect('product', prod)}
-                      className={`text-left p-8 border ${formData.product === prod ? 'border-[#8A4A32] bg-[#8A4A32]/10' : 'border-[#F3F1EC]/20 hover:border-[#F3F1EC]/50'} transition-all group relative`}
+                      className={`text-left p-8 border ${formData.product === prod ? 'border-[#8A4A32] bg-[#8A4A32]/10' : 'border-[#F3F1EC]/20 hover:border-[#F3F1EC]/50 active:border-[#F3F1EC]/50'} transition-all group relative`}
                     >
                       <span className="text-xl md:text-2xl font-bold">{prod}</span>
                       {formData.product === prod && <Check className="absolute top-8 right-8 w-6 h-6 text-[#8A4A32]" />}
@@ -108,9 +108,9 @@ export default function DevisPage() {
                 <div className="mt-12 flex justify-end">
                   <button 
                     onClick={nextStep}
-                    className="flex items-center gap-4 text-xl font-bold uppercase tracking-widest hover:text-[#8A4A32] transition-colors group"
+                    className="flex items-center gap-4 text-xl font-bold uppercase tracking-widest hover:text-[#8A4A32] active:text-[#8A4A32] transition-colors group"
                   >
-                    Suivant <ArrowRight className="group-hover:translate-x-2 transition-transform" />
+                    Suivant <ArrowRight className="group-hover:translate-x-2 group-active:translate-x-2 transition-transform" />
                   </button>
                 </div>
               </motion.div>
@@ -157,9 +157,9 @@ export default function DevisPage() {
                 <div className="mt-16 flex justify-end">
                   <button 
                     onClick={nextStep}
-                    className="bg-[#F3F1EC] text-[#111111] px-8 py-4 text-xl font-bold uppercase tracking-widest hover:bg-[#8A4A32] hover:text-[#F3F1EC] transition-colors flex items-center gap-4 group"
+                    className="bg-[#F3F1EC] text-[#111111] px-8 py-4 text-xl font-bold uppercase tracking-widest hover:bg-[#8A4A32] active:bg-[#8A4A32] hover:text-[#F3F1EC] active:text-[#F3F1EC] transition-colors flex items-center gap-4 group"
                   >
-                    Envoyer la demande <ArrowRight className="group-hover:translate-x-2 transition-transform" />
+                    Envoyer la demande <ArrowRight className="group-hover:translate-x-2 group-active:translate-x-2 transition-transform" />
                   </button>
                 </div>
               </motion.div>
@@ -181,7 +181,7 @@ export default function DevisPage() {
                 <p className="text-[#A7A7A3] text-2xl max-w-2xl mx-auto mb-16">
                   Notre équipe technique étudie vos besoins et vous recontactera dans un délai de 24 à 48 heures.
                 </p>
-                <a href="/" className="inline-flex items-center gap-4 text-xl font-bold uppercase tracking-widest border-b border-[#F3F1EC] pb-2 hover:text-[#8A4A32] hover:border-[#8A4A32] transition-colors">
+                <a href="/" className="inline-flex items-center gap-4 text-xl font-bold uppercase tracking-widest border-b border-[#F3F1EC] pb-2 hover:text-[#8A4A32] active:text-[#8A4A32] hover:border-[#8A4A32] active:border-[#8A4A32] transition-colors">
                   Retour à l'accueil
                 </a>
               </motion.div>
@@ -194,7 +194,7 @@ export default function DevisPage() {
           <div className="py-8 border-t border-[#F3F1EC]/10 flex justify-between">
             <button 
               onClick={prevStep}
-              className={`font-mono text-sm tracking-widest uppercase transition-colors ${step === 1 ? 'opacity-0 pointer-events-none' : 'text-[#A7A7A3] hover:text-[#F3F1EC]'}`}
+              className={`font-mono text-sm tracking-widest uppercase transition-colors ${step === 1 ? 'opacity-0 pointer-events-none' : 'text-[#A7A7A3] hover:text-[#F3F1EC] active:text-[#F3F1EC]'}`}
             >
               Retour
             </button>

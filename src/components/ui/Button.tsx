@@ -16,7 +16,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const variants = {
       primary: "bg-[#111111] text-[#F3F1EC] hover:bg-[#8A4A32] active:bg-[#8A4A32] px-8 py-4 text-sm tracking-wide uppercase",
       secondary: "bg-[#F3F1EC] text-[#111111] hover:bg-[#D0D0CC] active:bg-[#D0D0CC] px-8 py-4 text-sm tracking-wide uppercase",
-      outline: "border border-[#111111] text-[#111111] hover:bg-[#111111] hover:text-[#F3F1EC] active:bg-[#111111] active:text-[#F3F1EC] px-8 py-4 text-sm tracking-wide uppercase",
+      outline: "border border-[#111111] text-[#111111] hover:bg-[#111111] active:bg-[#111111] hover:text-[#F3F1EC] active:text-[#F3F1EC] active:bg-[#111111] active:text-[#F3F1EC] px-8 py-4 text-sm tracking-wide uppercase",
       ghost: "text-[#111111] hover:text-[#8A4A32] active:text-[#8A4A32] px-4 py-2 text-sm uppercase tracking-wider"
     };
 

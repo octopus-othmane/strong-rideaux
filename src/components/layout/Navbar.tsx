@@ -95,14 +95,14 @@ export const Navbar = () => {
                 className={cn(
                   'text-sm font-medium tracking-wide transition-colors duration-300 uppercase relative group',
                   dark && !isScrolled
-                    ? 'text-[#F3F1EC]/80 hover:text-[#F3F1EC]'
-                    : 'text-[#111111]/80 hover:text-[#8A4A32]'
+                    ? 'text-[#F3F1EC]/80 hover:text-[#F3F1EC] active:text-[#F3F1EC]'
+                    : 'text-[#111111]/80 hover:text-[#8A4A32] active:text-[#8A4A32]'
                 )}
               >
                 {link.name}
                 <span
                   className={cn(
-                    'absolute -bottom-1 left-0 w-0 h-[1px] transition-all duration-300 group-hover:w-full',
+                    'absolute -bottom-1 left-0 w-0 h-[1px] transition-all duration-300 group-hover:w-full group-active:w-full',
                     dark && !isScrolled ? 'bg-[#F3F1EC]' : 'bg-[#8A4A32]'
                   )}
                 />
@@ -159,10 +159,10 @@ export const Navbar = () => {
                       className="group flex items-center justify-between py-5"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      <span className="text-3xl md:text-4xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors duration-300">
+                      <span className="text-3xl md:text-4xl font-bold uppercase tracking-tight group-hover:text-[#8A4A32] active:text-[#8A4A32] group-active:text-[#8A4A32] transition-colors duration-300">
                         {link.name}
                       </span>
-                      <ArrowUpRight className="w-5 h-5 text-[#A7A7A3] opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-active:translate-x-0.5 group-active:-translate-y-0.5" />
+                      <ArrowUpRight className="w-5 h-5 text-[#A7A7A3] opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300 group-hover:translate-x-0.5 group-active:translate-x-0.5 group-hover:-translate-y-0.5 group-active:-translate-y-0.5 group-active:translate-x-0.5 group-active:-translate-y-0.5" />
                     </Link>
                   </motion.div>
                 </div>
@@ -178,7 +178,7 @@ export const Navbar = () => {
             >
               <Link
                 href="/devis"
-                className="block w-full text-center bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] hover:text-[#F3F1EC] active:bg-[#8A4A32] active:text-[#F3F1EC] active:scale-[0.98] transition-all duration-500"
+                className="block w-full text-center bg-[#F3F1EC] text-[#111111] px-8 py-5 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] active:bg-[#8A4A32] hover:text-[#F3F1EC] active:text-[#F3F1EC] active:bg-[#8A4A32] active:text-[#F3F1EC] active:scale-[0.98] transition-all duration-500"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Demander un devis

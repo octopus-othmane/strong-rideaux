@@ -399,7 +399,7 @@ export const EntrepriseContent = () => {
                 <p className="text-[#A7A7A3] text-lg md:text-xl leading-relaxed mb-8">
                   De l&apos;isolation thermique et phonique à la sécurité anti-effraction, nos lames profilées et extrudées répondent aux exigences architecturales les plus strictes, qu&apos;il s&apos;agisse de rénovations complexes ou de constructions neuves.
                 </p>
-                <Button href="/produits" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] hover:text-[#111111] active:bg-[#F3F1EC] active:text-[#111111] active:scale-[0.98]">
+                <Button href="/produits" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] active:bg-[#F3F1EC] hover:text-[#111111] active:text-[#111111] active:bg-[#F3F1EC] active:text-[#111111] active:scale-[0.98]">
                   Découvrir notre gamme
                   <ChevronRight className="w-4 h-4 ml-2 inline-block" />
                 </Button>
@@ -511,9 +511,9 @@ export const EntrepriseContent = () => {
                     custom={i * 0.1}
                   >
                     <div className="w-12 h-12 flex items-center justify-center border border-[#D0D0CC] mb-8 group-hover:border-[#F3F1EC]/20 group-active:border-[#F3F1EC]/20 transition-colors duration-500">
-                      <Icon className="w-5 h-5 text-[#111111] group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC] transition-colors duration-500" />
+                      <Icon className="w-5 h-5 text-[#111111] group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC] active:text-[#F3F1EC] group-active:text-[#F3F1EC] transition-colors duration-500" />
                     </div>
-                    <h4 className="text-xl font-bold uppercase tracking-tight mb-4 group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC] transition-colors duration-500">
+                    <h4 className="text-xl font-bold uppercase tracking-tight mb-4 group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC] active:text-[#F3F1EC] group-active:text-[#F3F1EC] transition-colors duration-500">
                       {v.title}
                     </h4>
                     <p className="text-[#A7A7A3] text-sm leading-relaxed group-hover:text-[#D0D0CC] group-active:text-[#D0D0CC] transition-colors duration-500">
@@ -575,11 +575,11 @@ export const EntrepriseContent = () => {
                   ].map((item, i) => (
                     <motion.div
                       key={item.label}
-                      className="bg-[#F3F1EC] p-6 md:p-8 flex flex-col justify-center hover:bg-[#111111] hover:text-[#F3F1EC] active:bg-[#111111] active:text-[#F3F1EC] transition-colors duration-500 group"
+                      className="bg-[#F3F1EC] p-6 md:p-8 flex flex-col justify-center hover:bg-[#111111] active:bg-[#111111] hover:text-[#F3F1EC] active:text-[#F3F1EC] active:bg-[#111111] active:text-[#F3F1EC] transition-colors duration-500 group"
                       variants={fadeUp}
                       custom={0.2 + i * 0.08}
                     >
-                      <div className="font-bold text-sm uppercase tracking-tight mb-2 group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC] transition-colors duration-500">
+                      <div className="font-bold text-sm uppercase tracking-tight mb-2 group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC] active:text-[#F3F1EC] group-active:text-[#F3F1EC] transition-colors duration-500">
                         {item.label}
                       </div>
                       <div className="font-mono text-xs tracking-widest text-[#A7A7A3] uppercase group-hover:text-[#A7A7A3] group-active:text-[#A7A7A3] transition-colors duration-500">
@@ -610,10 +610,10 @@ export const EntrepriseContent = () => {
                 Contactez-nous pour un devis gratuit et personnalisé. Notre équipe vous accompagne de la conception à l&apos;installation.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-6">
-                <Button href="/devis" variant="secondary" className="bg-[#F3F1EC] text-[#111111] hover:bg-[#8A4A32] hover:text-[#F3F1EC] active:bg-[#8A4A32] active:text-[#F3F1EC] active:scale-[0.98]">
+                <Button href="/devis" variant="secondary" className="bg-[#F3F1EC] text-[#111111] hover:bg-[#8A4A32] active:bg-[#8A4A32] hover:text-[#F3F1EC] active:text-[#F3F1EC] active:bg-[#8A4A32] active:text-[#F3F1EC] active:scale-[0.98]">
                   Demander un devis gratuit
                 </Button>
-                <Button href="/produits" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] hover:text-[#111111] active:bg-[#F3F1EC] active:text-[#111111] active:scale-[0.98]">
+                <Button href="/produits" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] active:bg-[#F3F1EC] hover:text-[#111111] active:text-[#111111] active:bg-[#F3F1EC] active:text-[#111111] active:scale-[0.98]">
                   Découvrir nos produits
                 </Button>
               </div>

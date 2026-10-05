@@ -111,7 +111,7 @@ export default function BlogPostPage({
                       src={other.image}
                       alt={other.title}
                       fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="object-cover transition-transform duration-700 group-hover:scale-105 group-active:scale-105"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
                   </div>
@@ -122,7 +122,7 @@ export default function BlogPostPage({
                     <span>{other.date}</span>
                   </div>
 
-                  <h3 className="text-xl font-bold uppercase tracking-tight group-hover:text-[#D0D0CC] transition-colors">
+                  <h3 className="text-xl font-bold uppercase tracking-tight group-hover:text-[#D0D0CC] group-active:text-[#D0D0CC] transition-colors">
                     {other.title}
                   </h3>
                 </motion.div>

@@ -71,10 +71,10 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1 }}
           >
-            <Button href="/produits" variant="primary" className="bg-[#F3F1EC] text-[#111111] hover:bg-[#D0D0CC]">
+            <Button href="/produits" variant="primary" className="bg-[#F3F1EC] text-[#111111] hover:bg-[#D0D0CC] active:bg-[#D0D0CC]">
               Explorer nos produits
             </Button>
-            <Button href="/devis" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] hover:text-[#111111]">
+            <Button href="/devis" variant="outline" className="border-[#F3F1EC] text-[#F3F1EC] hover:bg-[#F3F1EC] active:bg-[#F3F1EC] hover:text-[#111111] active:text-[#111111]">
               Parler de votre projet
             </Button>
           </motion.div>

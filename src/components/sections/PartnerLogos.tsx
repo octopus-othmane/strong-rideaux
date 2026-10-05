@@ -78,7 +78,7 @@ export function PartnerLogos() {
                     group relative flex items-center justify-center h-32 lg:h-40
                     border-r border-b border-[#D0D0CC] cursor-pointer
                     transition-all duration-500
-                    hover:bg-[#111111] hover:border-[#111111] hover:z-20
+                    hover:bg-[#111111] active:bg-[#111111] hover:border-[#111111] active:border-[#111111] hover:z-20 active:z-20
                     ${isGray ? "bg-white" : "bg-transparent"}
                   `}
                 >
@@ -91,8 +91,8 @@ export function PartnerLogos() {
                         fill
                         className={`object-contain transition-all duration-500 ${
                           partner.hoverLogo
-                            ? 'group-hover:opacity-0'
-                            : 'group-hover:brightness-0 group-hover:invert'
+                            ? 'group-hover:opacity-0 group-active:opacity-0'
+                            : 'group-hover:brightness-0 group-active:brightness-0 group-hover:invert group-active:invert'
                         }`}
                         sizes="160px"
                       />
@@ -102,20 +102,20 @@ export function PartnerLogos() {
                           src={partner.hoverLogo}
                           alt={partner.name}
                           fill
-                          className="object-contain opacity-0 group-hover:opacity-100 group-hover:brightness-0 group-hover:invert transition-all duration-500"
+                          className="object-contain opacity-0 group-hover:opacity-100 group-active:opacity-100 group-hover:brightness-0 group-active:brightness-0 group-hover:invert group-active:invert transition-all duration-500"
                           sizes="160px"
                         />
                       )}
                     </div>
                   ) : (
-                    <span className="text-[#A7A7A3] font-mono font-medium text-sm tracking-wider uppercase transition-colors duration-500 group-hover:text-[#F3F1EC]">
+                    <span className="text-[#A7A7A3] font-mono font-medium text-sm tracking-wider uppercase transition-colors duration-500 group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC]">
                       {partner.name}
                     </span>
                   )}
 
                   {/* Plus Signs at intersections */}
                   {col < 1 && row < Math.ceil(partners.length / 2) - 1 && (
-                    <div className="absolute -bottom-3 -right-3 z-10 w-6 h-6 flex items-center justify-center bg-[#F3F1EC] text-[#111111] rounded-full transition-transform duration-500 group-hover:rotate-90 group-hover:bg-[#111111] group-hover:text-[#F3F1EC]">
+                    <div className="absolute -bottom-3 -right-3 z-10 w-6 h-6 flex items-center justify-center bg-[#F3F1EC] text-[#111111] rounded-full transition-transform duration-500 group-hover:rotate-90 group-active:rotate-90 group-hover:bg-[#111111] group-active:bg-[#111111] active:bg-[#111111] group-hover:text-[#F3F1EC] group-active:text-[#F3F1EC]">
                       <Plus className="w-4 h-4 stroke-[2]" />
                     </div>
                   )}

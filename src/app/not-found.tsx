@@ -57,14 +57,14 @@ export default function NotFound() {
         >
           <Link
             href="/"
-            className="group inline-flex items-center justify-center gap-3 bg-[#F3F1EC] text-[#111111] px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] hover:text-[#F3F1EC] transition-all duration-500"
+            className="group inline-flex items-center justify-center gap-3 bg-[#F3F1EC] text-[#111111] px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#8A4A32] active:bg-[#8A4A32] hover:text-[#F3F1EC] active:text-[#F3F1EC] transition-all duration-500"
           >
-            <ArrowLeft className="w-4 h-4 transition-transform duration-300 group-hover:-translate-x-1" />
+            <ArrowLeft className="w-4 h-4 transition-transform duration-300 group-hover:-translate-x-1 group-active:-translate-x-1" />
             Retour à l&apos;accueil
           </Link>
           <Link
             href="/devis"
-            className="inline-flex items-center justify-center gap-3 border border-[#F3F1EC]/30 text-[#F3F1EC] px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#F3F1EC]/10 transition-all duration-500"
+            className="inline-flex items-center justify-center gap-3 border border-[#F3F1EC]/30 text-[#F3F1EC] px-8 py-4 text-sm font-medium uppercase tracking-wider hover:bg-[#F3F1EC]/10 active:bg-[#F3F1EC]/10 transition-all duration-500"
           >
             Demander un devis
           </Link>
